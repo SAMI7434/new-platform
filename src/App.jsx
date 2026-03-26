@@ -23,7 +23,6 @@ const App = () => {
           <span className={linkClass('product')} id="nl-product" onClick={() => show('product')}>Product</span>
           <span className={linkClass('contact')} id="nl-contact" onClick={() => show('contact')}>Contact</span>
         </div>
-        <div className="nav-cta" onClick={() => show('contact')}>Partner Up</div>
       </nav>
 
       <div className={pageClass('home')} id="pg-home">
@@ -34,7 +33,7 @@ const App = () => {
           <div className="hi">
             <div className="hbadge"><span className="bgem"></span>Packaging strategist · Thumbnail designer</div>
             <h1>Engineering<br /><em>First Impressions</em></h1>
-            <p className="hsub">I help creators and brands package videos with stronger thumbnails and titles that drive better clicks — without cheap clickbait. <b>Better CTR, real growth.</b></p>
+            <p className="hsub">I've spent years studying what <b>Makes People Click</b>. Now I help creators and brands package their videos so the right audience actually stops and watches.</b></p>
             <div className="hbtns">
               <div className="btnp" onClick={() => show('contact')}>Work With Me</div>
               <div className="btno" onClick={() => show('portfolio')}>View Portfolio</div>
