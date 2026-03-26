@@ -45,21 +45,10 @@ const App = () => {
             </div>
           </div>
           <div className="hcards">
-            <div className="avail"><span className="adot"></span><span className="atxt">Currently available</span></div>
             <div className="hcard">
-              <div className="htag">Traya Health — Hair Series</div>
-              <div className="htitle">CTR Optimized Packaging</div>
-              <div className="hmet"><div><span className="mv">12.4%</span><span className="ml">CTR</span></div><div><span className="mv">340K</span><span className="ml">Views</span></div><div><span className="mv">4.1x</span><span className="ml">Growth</span></div></div>
-            </div>
-            <div className="hcard">
-              <div className="htag">Avg across all clients</div>
-              <div className="htitle">Average click-through rate</div>
-              <div className="hmet"><div><span className="mv">9.8%</span><span className="ml">Avg CTR</span></div><div><span className="mv">4+</span><span className="ml">Clients</span></div></div>
-            </div>
           </div>
         </div>
         <div className="trust">
-          <span className="ti">Strategic Thinking</span>
           <span className="ti">Audience Psychology</span>
           <span className="ti">CTR Optimization</span>
           <span className="ti">Visual Packaging</span>
