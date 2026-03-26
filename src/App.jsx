@@ -31,7 +31,7 @@ const App = () => {
           <div className="hgrid"></div>
           <div className="pt pt1"></div><div className="pt pt2"></div><div className="pt pt3"></div><div className="pt pt4"></div>
           <div className="hi">
-            <div className="hbadge"><span className="bgem"></span>Packaging strategist · Thumbnail designer</div>
+            <div className="hbadge"><span className="bgem"></span></div>
             <h1>Engineering<br /><em>First Impressions</em></h1>
             <p className="hsub">I've spent years studying what <b>Makes People Click</b>. Now I help creators and brands package their videos so the right audience actually stops and watches.</b></p>
             <div className="hbtns">
