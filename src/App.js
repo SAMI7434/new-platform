@@ -32,51 +32,33 @@ const App = () => {
           <div className="hgrid"></div>
           <div className="pt pt1"></div><div className="pt pt2"></div><div className="pt pt3"></div><div className="pt pt4"></div>
           <div className="hi">
-            <div className="hbadge"><span className="bgem"></span>Packaging strategist · Thumbnail designer</div>
+            
             <h1>Engineering<br /><em>First Impressions</em></h1>
-            <p className="hsub">I help creators and brands package videos with stronger thumbnails and titles that drive better clicks — without cheap clickbait. <b>Better CTR, real growth.</b></p>
+            <p className="hsub">I've spent years studying what <b>Makes People Click</b>. Now I help creators and brands package their videos so the right audience actually stops and watches.</p>
             <div className="hbtns">
               <div className="btnp" onClick={() => show('contact')}>Work With Me</div>
               <div className="btno" onClick={() => show('portfolio')}>View Portfolio</div>
             </div>
             <div className="ghostl">
-              <div className="gl" onClick={() => show('portfolio')}>See selected work →</div>
               <div className="gl" onClick={() => show('service')}>Explore services →</div>
               <div className="gl" onClick={() => show('product')}>Browse products →</div>
             </div>
           </div>
           <div className="hcards">
-            <div className="avail"><span className="adot"></span><span className="atxt">Currently available</span></div>
-            <div className="hcard">
-              <div className="htag">Traya Health — Hair Series</div>
-              <div className="htitle">CTR Optimized Packaging</div>
-              <div className="hmet"><div><span className="mv">12.4%</span><span className="ml">CTR</span></div><div><span className="mv">340K</span><span className="ml">Views</span></div><div><span className="mv">4.1x</span><span className="ml">Growth</span></div></div>
-            </div>
-            <div className="hcard">
-              <div className="htag">Avg across all clients</div>
-              <div className="htitle">Average click-through rate</div>
-              <div className="hmet"><div><span className="mv">9.8%</span><span className="ml">Avg CTR</span></div><div><span className="mv">4+</span><span className="ml">Clients</span></div></div>
-            </div>
+           
           </div>
         </div>
-        <div className="trust">
-          <span className="ti">Strategic Thinking</span>
-          <span className="ti">Audience Psychology</span>
-          <span className="ti">CTR Optimization</span>
-          <span className="ti">Visual Packaging</span>
-        </div>
         <div className="sec">
-          <div className="lbl">What I do</div>
-          <div className="sh">Three disciplines. <em>One outcome.</em></div>
+          <div className="lbl">HOW I WORK</div>
+          <div className="sh">Simple process. <em>Real results.</em></div>
           <div className="g3" style={{ marginTop: '28px' }}>
-            <div className="card"><div className="cnum">01</div><h3>Thumbnail Design</h3><p>Custom concepts to improve glance value, emotional contrast, and click intent.</p></div>
-            <div className="card"><div className="cnum">02</div><h3>Packaging Strategy</h3><p>Stronger title-thumbnail fit, sharper angle development, better packaging logic.</p></div>
-            <div className="card"><div className="cnum">03</div><h3>CTR Analysis</h3><p>Review of weak hooks, unclear visuals, and packaging decisions suppressing clicks.</p></div>
+            <div className="card"><div className="cnum"></div><h3>Thumbnail Design</h3><p>Custom concepts to improve glance value, emotional contrast, and click intent.</p></div>
+            <div className="card"><div className="cnum"></div><h3>Packaging Strategy</h3><p>Stronger title-thumbnail fit, sharper angle development, better packaging logic.</p></div>
+            <div className="card"><div className="cnum"></div><h3>CTR Analysis</h3><p>Review of weak hooks, unclear visuals, and packaging decisions suppressing clicks.</p></div>
           </div>
         </div>
         <footer className="footer">
-          <div className="fb">SUMANTA <em>MONDAL</em></div>
-          <div className="fl"><span onClick={() => show('portfolio')}>Portfolio</span><span onClick={() => show('service')}>Service</span><span onClick={() => show('product')}>Product</span><span onClick={() => show('contact')}>Contact</span></div>
+          
           <div className="fc">© 2026 Sumanta Mondal</div>
         </footer>
       </div>
