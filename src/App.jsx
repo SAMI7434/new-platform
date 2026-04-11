@@ -31,65 +31,104 @@ const App = () => {
           <div className="hgrid"></div>
           <div className="pt pt1"></div><div className="pt pt2"></div><div className="pt pt3"></div><div className="pt pt4"></div>
           <div className="hi">
-            <div className="hbadge"><span className="bgem"></span></div>
+      
             <h1>Engineering<br /><em>First Impressions</em></h1>
-            <p className="hsub">I've spent years studying what <b>Makes People Click</b>. Now I help creators and brands package their videos so the right audience actually stops and watches.</b></p>
+            <p className="hsub">I've spent years studying what <b>Makes People Click</b>. Now I help creators and brands package their videos so the right audience actually stops and watches.</p>
             <div className="hbtns">
               <div className="btnp" onClick={() => show('contact')}>Work With Me</div>
               <div className="btno" onClick={() => show('portfolio')}>View Portfolio</div>
             </div>
             <div className="ghostl">
-              <div className="gl" onClick={() => show('portfolio')}>See selected work →</div>
               <div className="gl" onClick={() => show('service')}>Explore services →</div>
               <div className="gl" onClick={() => show('product')}>Browse products →</div>
             </div>
           </div>
-          <div className="hcards">
-            <div className="hcard">
-          </div>
-        </div>
-        <div className="trust">
-          <span className="ti">Audience Psychology</span>
-          <span className="ti">CTR Optimization</span>
-          <span className="ti">Visual Packaging</span>
+          
         </div>
         <div className="sec">
           <div className="lbl">What I do</div>
-          <div className="sh">Three disciplines. <em>One outcome.</em></div>
+          <div className="sh">Simple process. <em>Real results.</em></div>
           <div className="g3" style={{ marginTop: '28px' }}>
-            <div className="card"><div className="cnum">01</div><h3>Thumbnail Design</h3><p>Custom concepts to improve glance value, emotional contrast, and click intent.</p></div>
-            <div className="card"><div className="cnum">02</div><h3>Packaging Strategy</h3><p>Stronger title-thumbnail fit, sharper angle development, better packaging logic.</p></div>
-            <div className="card"><div className="cnum">03</div><h3>CTR Analysis</h3><p>Review of weak hooks, unclear visuals, and packaging decisions suppressing clicks.</p></div>
+            <div className="card"><div className="cnum"></div><h3>Idea</h3><p>I go through your content and figure out what angle is actually worth clicking on.</p></div>
+            <div className="card"><div className="cnum"></div><h3>Design</h3><p>Then I build the visual around that idea, nothing random, everything has a reason.</p></div>
+            <div className="card"><div className="cnum"></div><h3>Improve</h3><p>Once it is live, I see what the data says and adjust from there.</p></div>
           </div>
         </div>
         <footer className="footer">
-          <div className="fb">SUMANTA <em>MONDAL</em></div>
-          <div className="fl"><span onClick={() => show('portfolio')}>Portfolio</span><span onClick={() => show('service')}>Service</span><span onClick={() => show('product')}>Product</span><span onClick={() => show('contact')}>Contact</span></div>
           <div className="fc">© 2026 Sumanta Mondal</div>
         </footer>
       </div>
 
       <div className={pageClass('portfolio')} id="pg-portfolio">
         <div className="ph">
-          <div className="lbl">Portfolio</div>
-          <h1>Curated <em>Masterpieces</em></h1>
-          <p>Selected thumbnail and packaging direction built for stronger first impressions and intent-driven clicks.</p>
+          
         </div>
-        <div className="sec" style={{ paddingTop: 0 }}>
+        <div className="sec" style={{ paddingTop: '2cm' }}>
           <div className="pgrid">
             {[
-              { src: 'https://i.ibb.co/GvX3KGsL/Vaibhav-Sisinty-X-2am-v1.jpg', title: 'Podcast Packaging', subtitle: 'Emotional framing' },
-              { src: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=400&q=70', title: 'Case Study Concepts', subtitle: 'Storytelling curiosity' },
-              { src: 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=400&q=70', title: 'Expert Led Videos', subtitle: 'Trust-focused systems' },
-              { src: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=70', title: 'Brand Led Packaging', subtitle: 'Consistent identity' },
-              { src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=70', title: 'Business Commentary', subtitle: 'Authority + tension' },
-              { src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=70', title: 'Educational Videos', subtitle: 'Concept at a glance' },
-              { src: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=70', title: 'Growth Strategy', subtitle: 'Behavior-first thinking' },
-              { src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=400&q=70', title: 'Consulting Work', subtitle: 'Full system thinking' },
+              { src: '/Websittttte/before%20after%20thumbnail/01/1.jpg', title: '01', subtitle: 'Before' },
+              
+              { src: '/Websittttte/before%20after%20thumbnail/2/1.jpg', title: '02', subtitle: 'Before' },
+          
+
+              { src: '/Websittttte/before%20after%20thumbnail/3/1.jpg', title: '03', subtitle: 'Before' },
+                { src: '/Websittttte/before%20after%20thumbnail/4/1.jpg', title: '04', subtitle: 'Before' },
+              { src: '/Websittttte/before%20after%20thumbnail/01/2.jpg',title: '01', subtitle: 'After' },
+               { src: '/Websittttte/before%20after%20thumbnail/2/2.jpg',title: '02', subtitle: 'After' },
+              { src: '/Websittttte/before%20after%20thumbnail/3/2.jpg', title: '03',subtitle: 'After' },
+             
+            
+              { src: '/Websittttte/before%20after%20thumbnail/4/2.jpg',title: '04', subtitle: 'After' },
             ].map((item, idx) => (
               <div className="pcard" key={idx}><img src={item.src} alt="" /><div className="pov"><h4>{item.title}</h4><p>{item.subtitle}</p></div></div>
             ))}
           </div>
+
+            <div className="pgrid" style={{ marginTop: '3cm' }}>
+              {[
+                { src: '/Websittttte/only%20thumb/1.jpg', title: '01', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/2.jpg', title: '02', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/3.jpg', title: '03', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/54oQFGJ-xAI-HD.jpg', title: '04', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/AQI%20SCAM%202.jpg', title: '05', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Dr%20Madhavi%201%20v2.jpg', title: '06', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Dr%20Madhavi%204v2.jpg', title: '07', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Dr%20Shubham%203v3.jpg', title: '08', subtitle: 'Only Thumb' },
+              ].map((item, idx) => (
+                <div className="pcard" key={`ot-${idx}`}><img src={item.src} alt="" /><div className="pov"><h4>{item.title}</h4><p>{item.subtitle}</p></div></div>
+              ))}
+            </div>
+
+            <div className="pgrid" style={{ marginTop: '3cm' }}>
+              {[
+                { src: '/Websittttte/only%20thumb/Dr%20Shubham%20Digestion%201%20v1.jpg', title: '09', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Dr%20Shubham%20Gas%20Ep%203%20v2.jpg', title: '10', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Dr%20Sumit%204.jpg', title: '11', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Drv3.jpg', title: '12', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Her%20health%20Periods%203%20v2.jpg', title: '13', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Indian%20Food%20Scam%203%20v1.jpg', title: '14', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Infertility%204.jpg', title: '15', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Itz7QvsqJsU-HD.jpg', title: '16', subtitle: 'Only Thumb' },
+              ].map((item, idx) => (
+                <div className="pcard" key={`ot2-${idx}`}><img src={item.src} alt="" /><div className="pov"><h4>{item.title}</h4><p>{item.subtitle}</p></div></div>
+              ))}
+            </div>
+
+            <div className="pgrid" style={{ marginTop: '3cm' }}>
+              {[
+                { src: '/Websittttte/only%20thumb/IVF_Dr_Tanushree%205%20v1.jpg', title: '17', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Nikita%20Thakur%204%20v2.jpg', title: '18', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/OgXJpr-KVEQ-HD.jpg', title: '19', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Parenting%20Myths%201_v3.jpg', title: '20', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Parenting%20Myths%202%20v2%20copy.jpg', title: '21', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/Sangeetha-%20Gym%20Supplement%202%20v3.jpg', title: '22', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/wWDql6HCS7E-HD.jpg', title: '23', subtitle: 'Only Thumb' },
+                { src: '/Websittttte/only%20thumb/ZH4r8FOD4Js-HD.jpg', title: '24', subtitle: 'Only Thumb' },
+              ].map((item, idx) => (
+                <div className="pcard" key={`ot3-${idx}`}><img src={item.src} alt="" /><div className="pov"><h4>{item.title}</h4><p>{item.subtitle}</p></div></div>
+              ))}
+            </div>
+
           <div className="card ctac" style={{ marginTop: '32px' }}>
             <div className="lbl" style={{ justifyContent: 'center' }}>Ready to work</div>
             <h2>Want packaging that <em>actually converts?</em></h2>
@@ -98,8 +137,6 @@ const App = () => {
           </div>
         </div>
         <footer className="footer">
-          <div className="fb">SUMANTA <em>MONDAL</em></div>
-          <div className="fl"><span onClick={() => show('home')}>Home</span><span onClick={() => show('service')}>Service</span><span onClick={() => show('product')}>Product</span><span onClick={() => show('contact')}>Contact</span></div>
           <div className="fc">© 2026 Sumanta Mondal</div>
         </footer>
       </div>
